@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>Phone: ${data.phone}</p>
           <p>Address: ${data.address}</p>
           <h4>Education</h4>
-          <p>${data.degree} from ${data.school} (Class of ${data.gradYear})</p>
+          <p>${data.degree} from ${data.school} ( ${data.gradYear})</p>
           <h4>Work Experience</h4>
           <p>${data.jobTitle} at ${data.company} (${data.years} years)</p>
           <h4>Skills</h4>
